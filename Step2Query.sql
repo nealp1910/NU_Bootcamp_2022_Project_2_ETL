@@ -1,3 +1,6 @@
+SELECT * FROM "Basic_info"
+SELECT * FROM "Detailed_info"
+
 SELECT b."Name", d."FK Accuracy", b."Age",b."Overall",b."Club",b."Value"
 FROM "Basic_info" b
 JOIN "Detailed_info" d
