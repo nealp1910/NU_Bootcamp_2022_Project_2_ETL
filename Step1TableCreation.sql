@@ -16,12 +16,12 @@ CREATE TABLE "Basic_info" (
 
 CREATE TABLE "Detailed_info" (
     "ID" int   NOT NULL,
-    "FK_accuracy" int   NOT NULL,
-    "Ball_control" int   NOT NULL,
-    "Shot_power" int   NOT NULL,
-    "Preferred_foot" varchar(255)   NOT NULL,
+    "FK Accuracy" int   NOT NULL,
+    "Ball Control" int   NOT NULL,
+    "Shot Power" int   NOT NULL,
+    "Preferred foot" varchar(255)   NOT NULL,
     "Stamina" int   NOT NULL,
-    "Date_of_Birth" date   NOT NULL,
+    "DOB" date   NOT NULL,
     CONSTRAINT "pk_Detailed_info" PRIMARY KEY (
         "ID"
      )
